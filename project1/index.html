@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <title>ChamanShop</title>
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <header class="header">
+        <div class="brand">
+          <button onclick="openMenu()">
+            &#9776;
+          </button>
+          <a href="index.html">ChamanShop</a>
+        </div>
+        <div class="header-links">
+          <a href="cart.html">Cart</a>
+          <a href="signin.html">Sign In</a>
+        </div>
+      </header>
+      <aside class="sidebar">
+        <h3>Shopping Categories</h3>
+        <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+        <ul>
+          <li>
+            <a href="index.html"></a>
+          </li>
+
+          <li>
+            <a href="index.html">Shirts</a>
+          </li>
+        </ul>
+      </aside>
+      <main class="main">
+        <div class="content">
+          <ul class="products">
+            <li>
+              <div class="product">
+                <img class="product-image" src="images/d1.jpg" alt="product" />
+                <div class="product-name">
+                  <a
+                    className="App-link"
+                    href="https://th.priceprice.com/Lamborghini-Aventador-8195/colors-images/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    lamborghini aventador</a
+                  >
+                </div>
+                <div class="product-brand">hot,super Sall</div>
+                <div class="product-price">$ 662,500</div>
+                <div class="product-rating">4 .5 Stars (10 Reviews)</div>
+              </div>
+            </li>
+            <li>
+              <div class="product">
+                <img class="product-image" src="images/11.jpg" alt="product" />
+                <div class="product-name">
+                  <a
+                    className="App-link"
+                    href="https://www.checkraka.com/car/lamborghini/aventador/1446464/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    lamborghini aventador LP 750-4
+                  </a>
+                </div>
+                <div class="product-brand">hot,super Sall</div>
+                <div class="product-price">$ 1,312,500</div>
+                <div class="product-rating">8 .10 Stars (10 Reviews)</div>
+              </div>
+              <li><div class="product">
+                <img class="product-image" src="images/130.jpg" alt="product" />
+                <div class="product-name">
+                  <a
+                    className="App-link"
+                    href="https://www.autoblog.com/buy/2019-Acura-NSX-Base__2dr_All_wheel_Drive_Coupe/photos/#slide-104"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    Honda NXS Type 2020</a
+                  >
+                </div>
+                <div class="product-brand">hot,super Sall</div>
+                <div class="product-price">$ 622,500</div>
+                <div class="product-rating">7 .10Stars (10 Reviews)</div>
+              </div>
+              <li><div class="product">
+                <img class="product-image" src="images/b1.jpg" alt="product" />
+                <div class="product-name">
+                  <a
+                    className="App-link"
+                    href="http://www.mensmile.com/bugatti-centodieci/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                  Bugatti Centodieci </a
+                  >
+                </div>
+                <div class="product-brand">hot,super Sall</div>
+                <div class="product-price">$ 1,662,500</div>
+                <div class="product-rating">10 .10 Stars (10 Reviews)</div>
+              </div>
+            </li>
+            </li>
+            </li>
+            <li></li>
+          </ul>
+        </div>
+      </main>
+      <footer class="footer">
+        All right reserved.
+      </footer>
+    </div>
+    <script>
+      function openMenu() {
+        document.querySelector(".sidebar").classList.add("open");
+      }
+      function closeMenu() {
+        document.querySelector(".sidebar").classList.remove("open");
+      }
+    </script>
+  </body>
+</html>
