@@ -1,0 +1,12 @@
+{
+  "name": "apppro-app",
+  "displayName": "apppro-app",
+  "expo": {
+    "name": "apppro-app",
+    "slug": "apppro-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
